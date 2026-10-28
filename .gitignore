@@ -1,0 +1,11 @@
+# Signing material: never commit
+*.jks
+*.keystore
+
+# Build outputs
+app/build/
+
+# Logs and IDE files
+*.log
+.idea/
+*.iml

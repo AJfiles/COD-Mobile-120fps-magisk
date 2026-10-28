@@ -1,0 +1,89 @@
+version=v5.0
+versionCode=14
+# keys_insert: 1 crea las claves 1/120 si la cuenta activa aun no las tiene
+keys_insert=0
+2e185a6199bb4ee189271df3c1b5a9fe4f849e2cf3a4828d0969bf07f7eaf678  /data/adb/modules/codm_s23_120/config
+def99ac3947e84c6cc5feb9c164d0a5214681c7e1c104d7233cce08cb999b9b4  /data/adb/modules/codm_s23_120/module.prop
+48288933344ec5d17cdcf60b471d70f199638559407a765102eeab683233a713  /data/adb/modules/codm_s23_120/files/codm_env.sh
+d60ed49deec3d6e928ad5854f174d13fd2cfaebf4f1586522554f97f285176ca  /data/adb/modules/codm_s23_120/files/game_prefs.sh
+f92a2625d243676b0e4641ad607dc59267bfa0b92ebe5acc131d0b2e1f7bdd31  /data/adb/modules/codm_s23_120/files/doctor.sh
+75dc5212fd9afbfe1f1dd38a4fbccfc42583ddea4adb440b68acf7452a38abbb  /data/adb/modules/codm_s23_120/tools/codmctl.sh
+---WORKERS---
+ 2830 sh /data/adb/modules/codm_s23_120/files/watch.sh
+ 2839 sh /data/adb/modules/codm_s23_120/files/prefs_watch.sh
+ 3143 sh /data/adb/modules/codm_s23_120/files/watch.sh
+ 3218 sh /data/adb/modules/codm_s23_120/files/watch.sh
+---STATUS---
+module.path=/data/adb/modules/codm_s23_120
+module.active=1
+module.version=v5.0
+module.versionCode=14
+module.manager=Magisk
+module.managerVersion=30.7:MAGISK:D
+module.resetprop=1
+app.packaged=1
+app.wanted=10
+app.installed=1
+app.system=0
+app.version=10
+device.model=SM-S918B
+device.device=dm3q
+device.original=dm3q
+device.dm3q=1
+android.release=14
+android.sdk=34
+android.oneui=60101
+android.security=2025-02-01
+spoof.boot=1
+spoof.propsAdjusted=1
+spoof.profile=auto
+spoof.action=on
+spoof.via=full
+spoof.systemProp=0
+keys.insert=0
+account.detected=UID_PRUEBA
+account.confirmed=UID_PRUEBA
+account.target=UID_PRUEBA
+account.known=1
+account.match=1
+game.package=com.activision.callofduty.shooter
+game.packages=com.activision.callofduty.shooter
+game.installed=1
+game.launchable=1
+game.running=0
+layer.armed=0
+layer.mapped=0
+layer.profile=auto
+perf.profile=on
+perf.applied=0
+perf.savedMode=
+prefs.readable=1
+prefs.uid=UID_PRUEBA
+prefs.enable=1
+prefs.framerate=120
+gfx.width=1552
+gfx.height=720
+gfx.quality=1
+fpslevel=5
+prefs.mode=auto
+prefs.accounts=UID_OTRA_2,UID_OTRA_1,UID_PRUEBA
+prefs.applied=
+prefs.orig=0/90
+gfx.preset=
+gfx.overridden=0
+gfx.modified=0
+gfx.available=1
+perfz.installed=1
+perfz.visibility=0
+display.maxHz=120
+audio.mode=dm3q-parcheado
+audio.hal=4309
+worker.watch=1
+worker.app=0
+worker.audio=0
+worker.prefs=1
+worker.perfz=0
+doctor.verdict=ESPERA_DESBLOQUEO
+doctor.notes=desbloquea el telefono; el worker reintenta cada 30 s
+log.path=/data/adb/modules/codm_s23_120/logs
+time.now=2026-10-28 00:57:40

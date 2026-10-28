@@ -1,0 +1,101 @@
+# v4.1 - persistencia de originales tras actualizar el modulo (27/10/2026)
+# zip codm_s23_120_v4.1.zip sha256 0f5068612f64935e0197a6a9cabd39d8f9b57c44d7a9d76e0d5bc5ab900c15c7
+
+## codmctl status tras reinicio con v4.1/13
+module.path=/data/adb/modules/codm_s23_120
+module.active=1
+module.version=v4.1
+module.versionCode=13
+module.manager=Magisk
+module.managerVersion=30.7:MAGISK:D
+module.resetprop=1
+app.packaged=1
+app.wanted=10
+app.installed=1
+app.system=0
+app.version=10
+device.model=SM-S918B
+device.device=dm3q
+device.original=dm3q
+device.dm3q=1
+android.release=14
+android.sdk=34
+android.oneui=60101
+android.security=2025-02-01
+spoof.boot=1
+spoof.propsAdjusted=1
+spoof.profile=auto
+spoof.action=on
+account.detected=UID_PRUEBA
+account.confirmed=UID_PRUEBA
+account.known=1
+account.match=1
+game.package=com.activision.callofduty.shooter
+game.packages=com.activision.callofduty.shooter
+game.installed=1
+game.launchable=1
+game.running=0
+layer.armed=0
+layer.mapped=0
+layer.profile=auto
+perf.profile=on
+perf.applied=0
+perf.savedMode=
+prefs.readable=1
+prefs.uid=UID_PRUEBA
+prefs.enable=1
+prefs.framerate=120
+gfx.width=1552
+gfx.height=720
+gfx.quality=1
+fpslevel=5
+prefs.mode=auto
+prefs.accounts=UID_OTRA_2,UID_OTRA_1,UID_PRUEBA
+prefs.applied=UID_PRUEBA
+prefs.orig=0/90
+gfx.preset=
+gfx.overridden=0
+gfx.modified=1
+gfx.available=1
+perfz.installed=1
+perfz.visibility=0
+display.maxHz=120
+audio.mode=dm3q-parcheado
+audio.hal=4054
+worker.watch=1
+worker.app=0
+worker.audio=0
+worker.prefs=1
+worker.perfz=0
+doctor.verdict=120_LISTO
+doctor.notes=claves 1/120 y FPSLevel=5; mide en partida para confirmar el techo real
+log.path=/data/adb/modules/codm_s23_120/logs
+time.now=2026-10-27 23:25:21
+
+## estado persistente
+total 26
+drwxr-xr-x  2 root root 3452 2026-10-27 23:25 .
+drwx------ 11 root root 3452 2026-10-27 23:23 ..
+-rw-r--r--  1 root root   20 2026-10-27 23:19 account.confirmed
+-rw-r--r--  1 root root   32 2026-10-27 23:19 gfx.orig
+-rw-rw-rw-  1 root root 1326 2022-06-08 15:33 orig_props.txt
+-rw-r--r--  1 root root    2 2026-10-27 23:19 perfz.orig
+-rw-r--r--  1 root root   22 2026-10-27 23:25 prefs.orig.com.activision.callofduty.shooter.UID_PRUEBA
+
+--- /data/adb/codm_s23_120_state/account.confirmed
+UID_PRUEBA
+--- /data/adb/codm_s23_120_state/gfx.orig
+width=1552
+height=720
+quality=1
+--- /data/adb/codm_s23_120_state/orig_props.txt
+ro.product.product.model	SM-S918B
+ro.product.product.brand	samsung
+ro.product.product.manufacturer	samsung
+ro.product.product.device	qssi
+ro.product.product.name	dm3qxxx
+--- /data/adb/codm_s23_120_state/perfz.orig
+1
+--- /data/adb/codm_s23_120_state/prefs.orig.com.activision.callofduty.shooter.UID_PRUEBA
+enable=0
+framerate=90
