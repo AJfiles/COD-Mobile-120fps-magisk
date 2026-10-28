@@ -1,0 +1,21 @@
+# Perfiles del modulo (clave=valor). Se leen en cada arranque.
+# spoof: auto | compat | on | off.
+#   auto   = perfil completo solo en dm3q (verificado); resto intacto.
+#   compat = solo modelo NX789J en cualquier equipo (bajo tu riesgo).
+#   on     = perfil completo en cualquier equipo (bajo tu riesgo).
+# layer: auto | on | off. auto = solo dm3q (capa Vulkan Adreno).
+# fpslevel: 1 intenta ULTRA (FPSLevel=5) con el juego cerrado.
+# apply_all: 0 = cuenta activa; 1 = todas las cuentas del XML.
+# account_mode: auto | confirmed | active | all. auto sigue la cuenta activa
+#   aunque cambie y no cae nunca a "todas" si no puede leerla.
+# keys_insert: 1 crea las claves 1/120 si la cuenta activa aun no las tiene
+#   (experimental: el juego puede revertirlas a 90 al arrancar; lo normal es
+#   activar 120 una vez en Ajustes de CODM y dejar que el modulo lo mantenga).
+# gfx_universal: 1 permite los presets GFX de S23 en otros equipos (bajo tu riesgo).
+spoof=auto
+layer=auto
+fpslevel=1
+apply_all=0
+account_mode=auto
+keys_insert=0
+gfx_universal=0
