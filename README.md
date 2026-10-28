@@ -265,7 +265,7 @@ que eliminar → stock → reinstalar.
 | Inserción local de claves (negativa) | El juego mantuvo `1/120` ~45 s, la reescribió a 90 y eliminó las claves al cerrar; no crea el ajuste de cuenta | [docs/UNIVERSAL.md](docs/UNIVERSAL.md) |
 | Persistencia de originales (v4.0 → v4.1) | El original `0/90` sobrevive a la actualización del módulo y el ciclo restore/apply no lo pierde | [v41_persistencia.txt](docs/evidencia/v41_persistencia.txt) |
 | Cuenta-agnóstico (v5) | Seis escenarios sintéticos (activa, cambio, confirmada, ambigua, única, `apply_all`) pasan sin caer a «todas»; verificado en hardware con una cuenta | [docs/UNIVERSAL.md](docs/UNIVERSAL.md) |
-| Arranque en frío v5.1 | v5.1/15, 5 workers, `prefs=1/120`, `prefs.orig=0/90`, `doctor=120_LISTO`, app 1.5/10 | [status_v5_reboot.txt](docs/evidencia/status_v5_reboot.txt) |
+| Arranque en frío v5.1 | v5.1/15, 5 workers, `prefs=1/120`, `prefs.orig=0/90`, `doctor=120_LISTO`, app 1.5/10 | [status_v5.1_reboot.txt](docs/evidencia/status_v5.1_reboot.txt) |
 | Desactivar / eliminar | Stock real tras reiniciar; la app queda inactiva al desactivar y se borra con sus datos al eliminar | [docs/ESTADO_CODM.md](docs/ESTADO_CODM.md) |
 
 Los informes completos, con lo verificado y lo pendiente separados, están en

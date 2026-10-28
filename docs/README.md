@@ -19,7 +19,8 @@ hardware** de **estimado o pendiente**.
 | Archivo | Qué demuestra |
 | --- | --- |
 | [evidencia/timestats_br.txt](evidencia/timestats_br.txt) | Partida BR real: capa de CODM a 120 Hz, 23.271 frames, 0 dropped, 0 jank, 99,08 % a 8 ms |
-| [evidencia/status_v5_reboot.txt](evidencia/status_v5_reboot.txt) | Arranque en frío de la v5: workers, prefs 1/120, original 0/90, `doctor=120_LISTO` |
+| [evidencia/status_v5.1_reboot.txt](evidencia/status_v5.1_reboot.txt) | Arranque en frío de la v5.1: 5 workers, prefs 1/120, original 0/90, `doctor=120_LISTO`, app 1.5/10 |
+| [evidencia/status_v5_reboot.txt](evidencia/status_v5_reboot.txt) | Arranque en frío de la v5.0: workers, prefs 1/120, original 0/90, `doctor=120_LISTO` |
 | [evidencia/v41_persistencia.txt](evidencia/v41_persistencia.txt) | Los originales sobreviven a la actualización del módulo (v4.0 → v4.1) |
 
 Las capturas de pantalla y los volcados completos del entorno de prueba no se
